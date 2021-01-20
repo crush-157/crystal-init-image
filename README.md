@@ -25,7 +25,10 @@ func.<your-language-extension>
 `func.<your-language-extension>` should contain the code for a simple example function (Traditionally "hello, <name>|World!").
   
 ## Uses
-`init-image` may be used to share common base of code and/or dependencies across a set of functions.
+`init-image` may be used to create functions with consistent, pre - defined:
+- dependencies
+- scaffold code
+- Dockerfile
 
 ## Example
 This example shows how to use `init-image` to make it easier to create functions written in [Crystal](http://crystal-lang.org).
@@ -58,3 +61,9 @@ To build this run:
 docker build -t <your-docker-id>/crystal-base .
 docker push <your-docker-id>/crystl-base
 ```
+
+Now you could just base your functions off this base image.
+But you would need to write a new `Dockerfile` each time and your code from scratch.
+Using an `init-image` you will have a standard starting point for each function.
+
+### Init Image
