@@ -1,5 +1,5 @@
 # crystal-init-image
-An example using the `init-image` feature of [Oracle Functions](https://www.oracle.com/cloud-native/functions/ and [Fn Project](fnproject.io).
+An example using the `init-image` feature of [Oracle Functions](https://www.oracle.com/cloud-native/functions/) and [Fn Project](fnproject.io).
 
 ## `init-image` Description
 `init-image` is a way of creating a new function based upon a Docker template rather than using an FDK.
