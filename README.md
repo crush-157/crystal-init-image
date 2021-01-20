@@ -40,8 +40,21 @@ This is fine for a single function, but obviously copying this module into every
 
 One option to share the code is to use an `init-image`.
 
+### Prerequisites
+To follow the example, clone this repository to your environment.
+You should have the following installed:
+- Docker
+- Fn CLI
+
+You should have a Docker ID, and be able to push to Docker hub.
+
 ### Base Image
 The [crystal-base](./crystal-base) folder contains
 - the `FnHelper` module in the file [helper.cr](./crystal-base/helper.cr).
 - a Dockerfile to to build an image containing the helper.
 
+To build this run:
+```
+docker build -t <your-docker-id>/crystal-base .
+docker push <your-docker-id>/crystl-base
+```
