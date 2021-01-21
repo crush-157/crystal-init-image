@@ -18,7 +18,7 @@ func.yaml created.
 The function directory will now contain the following files (at a minimum):
 ```
 func.yaml
-Dockerfile`
+Dockerfile
 func.<your-language-extension>
 ```
 
