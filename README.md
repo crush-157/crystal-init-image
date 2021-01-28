@@ -35,7 +35,7 @@ This example shows how to use `init-image` to make it easier to create functions
 
 It will allow us, in effect, to create a "poor man's FDK".
 
-As Crstal doesn't have an FDK, we need to provide a "helper" to act as an interface between the Functions service and the function code.
+As Crystal doesn't have an FDK, we need to provide a "helper" to act as an interface between the Functions service and the function code.
 
 In the [crystal-fn](https://github.com/crush-157/crystal-fn) repository, there is an example of a function with such a helper.
 
